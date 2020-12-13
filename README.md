@@ -10,8 +10,8 @@
 
 # 使用方法
 
-## 例：https://cdn.jsdelivr.net/gh/ITJoker233/BingPicApi/pic/20200312.png
-> https://cdn.jsdelivr.net/gh/ITJoker233/BingPicApi/pic/日期.png
+## 例：https://cdn.jsdelivr.net/gh/BAIBAIGE/BingPicApi/pic/20200312.png
+> https://cdn.jsdelivr.net/gh/BAIBAIGE/BingPicApi/pic/日期.png
 
 ## 例：https://cdn.jsdelivr.net/gh/ITJoker233/BingPicApi/json/20200312.json
 > https://cdn.jsdelivr.net/gh/ITJoker233/BingPicApi/json/日期.json
