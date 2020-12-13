@@ -1,4 +1,6 @@
 import json
+import random
+import shutil
 from requests import get
 
 def GetPic():
