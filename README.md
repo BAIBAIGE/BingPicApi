@@ -4,7 +4,6 @@
 
 # 使用方法
 
-<a href="https://cdn.jsdelivr.net/gh/BAIBAIGE/BingPicApi/pic/latest.png" target="_blank">https://cdn.jsdelivr.net/gh/BAIBAIGE/BingPicApi/pic/latest.png</a>
 ## 最新图片
 例：https://cdn.jsdelivr.net/gh/BAIBAIGE/BingPicApi/pic/latest.png
 ```
