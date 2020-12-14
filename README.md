@@ -5,9 +5,9 @@
 # 使用方法
 
 ## 最新图片
-例：https://cdn.jsdelivr.net/gh/BAIBAIGE/BingPicApi@latest/images/latest.png
+例：https://cdn.jsdelivr.net/gh/BAIBAIGE/BingPicApi@latest/pic/latest.png
 ```
-https://cdn.jsdelivr.net/gh/BAIBAIGE/BingPicApi@latest/images/latest.png
+https://cdn.jsdelivr.net/gh/BAIBAIGE/BingPicApi@latest/pic/latest.png
 ```
 
 ## 根据日期获取图片
