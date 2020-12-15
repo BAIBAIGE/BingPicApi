@@ -5,7 +5,10 @@ on:
     branches: 
       - master
   schedule:
-    - cron: '0 16 * * *'
+    - cron: '0 17 * * *'
+
+env:
+  TZ: Asia/Shanghai
 jobs:
   Bing-spider:
     runs-on: ubuntu-latest
@@ -33,3 +36,9 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.TOKEN }}
+      - name: 'Create a Release'
+        uses: elgohr/Github-Release-Action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+        with:
+          args: BingImage
