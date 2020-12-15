@@ -6,9 +6,8 @@ on:
       - master
   schedule:
     - cron: '0 17 * * *'
-
 env:
-  TZ: Asia/Shanghai
+   TZ: Asia/Shanghai
 jobs:
   Bing-spider:
     runs-on: ubuntu-latest
