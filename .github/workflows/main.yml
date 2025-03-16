@@ -17,7 +17,7 @@ jobs:
       - name: 'Set up Python'
         uses: actions/setup-python@v1
         with:
-          python-version: 3.7
+          python-version: 3.11.11
       - name: 'Install dependencies'
         run: python -m pip install --upgrade pip
       - name: 'Install requirements'
@@ -30,7 +30,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A
-          git commit -m ":rocket: Fetch BingImage at $(date +'%Y-%m-%d %H:%M')" -a
+          git commit -m "✅ add a BingPic" -a
       - name: 'Push changes'
         uses: ad-m/github-push-action@master
         with:
